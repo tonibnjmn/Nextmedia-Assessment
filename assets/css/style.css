@@ -254,7 +254,7 @@ body {
   }
 
   .magazine-img img {
-    width: clamp(150px, 10vw, 100px);
+    width: clamp(120px, 10vw, 90px);
   }
 }
 
@@ -266,6 +266,10 @@ body {
 
   .heading-text span {
     font-size: 25px;
+  }
+
+  .magazine-img img {
+    width: clamp(80px, 10vw, 60px);
   }
 }
 
