@@ -269,7 +269,22 @@ body {
   }
 
   .magazine-img img {
-    width: clamp(80px, 10vw, 60px);
+    width: clamp(100px, 10vw, 90px);
+  }
+}
+
+@media (max-width: 360px) {
+  .heading-text {
+    font-size: 10px;
+    width: 100%;
+  }
+
+  .heading-text span {
+    font-size: 20px;
+  }
+
+  .magazine-img img {
+    width: clamp(80px, 5vw, 60px);
   }
 }
 
