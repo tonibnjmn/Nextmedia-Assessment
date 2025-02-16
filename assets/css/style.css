@@ -140,7 +140,7 @@ body {
 }
 
 .heading-text {
-  font-size: 60px;
+  font-size: 70px;
   color: var(--dark-color);
   line-height: 1.2;
   letter-spacing: 1px;
@@ -148,6 +148,7 @@ body {
   text-align: center;
   font-family: "Manrope";
   font-weight: 1000;
+  width: 90%;
 }
 
 .heading-text-highlight {
@@ -169,7 +170,7 @@ body {
   align-items: center;
   gap: 0.1vw;
   position: relative;
-  width: 100%;
+  width: 80%;
   height: auto;
   padding: 5px;
 }
@@ -197,7 +198,7 @@ body {
 
 .magazine-container .magazine-img:nth-child(1) {
   top: calc(-90vh + 180px);
-  left: -4%;
+  left: 5%;
 }
 
 .magazine-container .magazine-img:nth-child(2) {
@@ -207,7 +208,7 @@ body {
 
 .magazine-container .magazine-img:nth-child(3) {
   top: calc(-90vh + 520px);
-  left: 38%;
+  left: 45%;
 }
 
 .magazine-container .magazine-img:nth-child(4) {
@@ -216,8 +217,18 @@ body {
 }
 
 @media (max-width: 1024px) {
+  .headline {
+    height: auto;
+    padding: 10px;
+  }
+
   .magazine-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .magazine-container .magazine-img:nth-child(3) {
+    top: calc(-90vh + 520px);
+    left: 35%;
   }
 }
 
@@ -565,6 +576,7 @@ body {
 }
 
 .other-product-slide {
+  display: block !important;
   overflow: hidden;
 }
 
@@ -716,8 +728,8 @@ body {
 
   .swiper-button-prev,
   .swiper-button-next {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
   }
 }
 
