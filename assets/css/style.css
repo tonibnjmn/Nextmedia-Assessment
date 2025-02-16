@@ -721,15 +721,15 @@ body {
   }
 
   .other-product-box .colored-btn {
-    width: 120px;
+    width: 100px;
     font-size: 10px;
     padding: 8px;
   }
 
   .swiper-button-prev,
   .swiper-button-next {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
   }
 }
 
