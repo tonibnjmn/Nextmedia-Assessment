@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     grabCursor: true,
 
     breakpoints: {
+      375: { slidesPerView: 2 },
       640: { slidesPerView: 2 },
       768: { slidesPerView: 2 },
       1024: { slidesPerView: 4 },
