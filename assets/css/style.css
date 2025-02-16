@@ -26,6 +26,10 @@ body {
   color: var(--light-color);
 }
 
+.text-primary {
+  color: #118802;
+}
+
 /* BACKGROUND */
 .bg-dark {
   background-color: var(--dark-color);
